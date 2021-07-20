@@ -16,10 +16,10 @@ Die Ergebnisse werden auf drei Arten ausgegeben:
 3.	Es wird ein konfigurierbarer HTML Schnipsel erzeugt
 
 Code / Project
-•	Java 14 [JDK-14.0.2]
-•	Eclipse IDE Version: 2020-12 (4.18.0)
-•	Window-Builder implementiert in Eclipse
-•	Package Name: wetter
+a) Java 14 [JDK-14.0.2]
+b)	Eclipse IDE Version: 2020-12 (4.18.0)
+c)	Window-Builder implementiert in Eclipse
+d)	Package Name: wetter
 Die main datei ist die wetter\gui\SimplifiedWetterGUI.java
 
 Projekt Struktur:
