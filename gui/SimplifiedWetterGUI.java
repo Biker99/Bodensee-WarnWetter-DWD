@@ -418,7 +418,7 @@ public class SimplifiedWetterGUI extends JFrame {
 	panelBodenseeBild.setBackground(Color.white); 
 
 	lblBodenseeBild.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));;
-	lblBodenseeBild.setIcon(new ImageIcon(SimplifiedWetterGUI.class.getResource("/wetter/ressources/SeeGross/"+bild))); //defaultIcon=file:/D:/java/programme/Wetter07/bin/wetter/ressources/SeeGross/
+	lblBodenseeBild.setIcon(new ImageIcon(SimplifiedWetterGUI.class.getResource("/wetter/ressources/SeeGross/"+bild))); //defaultIcon=file:.../bin/wetter/ressources/SeeGross/
  		
 }
     
