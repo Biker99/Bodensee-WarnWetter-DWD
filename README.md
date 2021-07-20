@@ -14,3 +14,35 @@ Die Ergebnisse werden auf drei Arten ausgegeben:
 2.	Darstellung der Sturmwarnung für die drei Bodensee Regionen Ost, Mitte und West.
  zusätzlich wird Bodensee Wassertemperatur, gemessen in Bregenz, und der Wasserstand am Lindauer Kanu-Club angezeigt.  automatisches update der Daten vom DWD und VOWIS
 3.	Es wird ein konfigurierbarer HTML Schnipsel erzeugt
+
+Code / Project
+•	Java 14 [JDK-14.0.2]
+•	Eclipse IDE Version: 2020-12 (4.18.0)
+•	Window-Builder implementiert in Eclipse
+•	Package Name: wetter
+Die main datei ist die wetter\gui\SimplifiedWetterGUI.java
+
+Projekt Struktur:
+	wetter
+		common
+			AktualisierenDWD.java
+			AktualisierenVOWIS.java
+			LocalTime.java
+			VOWIS.java
+			Warnung.java
+		gui
+			About.java
+			CreateHTML.java
+			Settings.java
+			SimplifiedWetterGUI.java --> main
+		includes
+			json-simple-1.1.1.jar
+		json
+			JSON_DecodeDWD.java
+			JSON_DecodeVOWIS.java
+			JSONLoadObjectDWD.java
+			JSONLoadObjectVOWIS.java
+		ressources
+			Die benötigten Bilder etc. sind unter ressources gespeichert 
+			(Pfad zu den Bildern ist hard-coded!)
+
