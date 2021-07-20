@@ -1,4 +1,4 @@
-# wetter
+# Bodensee-WarnWetter-DWD
  
 Wir haben  ein Tool geschrieben, mit dem wir
 1.	die DWD Warnungen komplett für gesamt Deutschland auslesen und textlich darstellen
@@ -11,16 +11,15 @@ Außerdem werden Bodensee Daten (Wassertemperatur und Wasserstand) vom Vorarlber
 
 Die Ergebnisse werden auf drei Arten ausgegeben:
 1.	vollständige Ausgabe der Warnmeldungen
-2.	Darstellung der Sturmwarnung für die drei Bodensee Regionen Ost, Mitte und West.
- zusätzlich wird Bodensee Wassertemperatur, gemessen in Bregenz, und der Wasserstand am Lindauer Kanu-Club angezeigt.  automatisches update der Daten vom DWD und VOWIS
+2.	Darstellung der Sturmwarnung für die drei Bodensee Regionen Ost, Mitte und West. Zusätzlich wird Bodensee Wassertemperatur, gemessen in Bregenz, und der Wasserstand am Lindauer Kanu-Club angezeigt. --> automatisches update der Daten vom DWD und VOWIS
 3.	Es wird ein konfigurierbarer HTML Schnipsel erzeugt
 
 Code / Project
-a) Java 14 [JDK-14.0.2]
-b)	Eclipse IDE Version: 2020-12 (4.18.0)
-c)	Window-Builder implementiert in Eclipse
-d)	Package Name: wetter
-Die main datei ist die wetter\gui\SimplifiedWetterGUI.java
+1. Java 14 [JDK-14.0.2]
+2. Eclipse IDE Version: 2020-12 (4.18.0)
+3. Window-Builder implementiert in Eclipse
+4. Package Name: wetter
+5. Die main datei ist die wetter\gui\SimplifiedWetterGUI.java
 
 Projekt Struktur:
 	wetter
