@@ -1,2 +1,16 @@
 # wetter
  
+Wir haben  ein Tool geschrieben, mit dem wir
+1.	die DWD Warnungen komplett für gesamt Deutschland auslesen und textlich darstellen
+2.	diese Daten verwenden, um ein Bodensee-Spezifika bildlich darzustellen:
+3.	diese Daten verwenden, um in regelmäßigen Zeitabständen einen kleinen HTML code-schnipsel zu generieren, der lokal gespeicherte Bilder aufruft. Dieser Schnipsel wird bei einer lokalen Anwendung verwendet
+  
+Es ist im Tool konfigurierbar, welche Daten vom DWD dargestellt werden sollen. (-->Settings)
+Außerdem werden Bodensee Daten (Wassertemperatur und Wasserstand) vom Vorarlberger Wetterdienst (VOWIS) geladen und dargestellt.
+
+
+Die Ergebnisse werden auf drei Arten ausgegeben:
+1.	vollständige Ausgabe der Warnmeldungen
+2.	Darstellung der Sturmwarnung für die drei Bodensee Regionen Ost, Mitte und West.
+ zusätzlich wird Bodensee Wassertemperatur, gemessen in Bregenz, und der Wasserstand am Lindauer Kanu-Club angezeigt.  automatisches update der Daten vom DWD und VOWIS
+3.	Es wird ein konfigurierbarer HTML Schnipsel erzeugt
