@@ -47,3 +47,4 @@ Projekt Struktur:
 		Die benötigten Bilder etc. sind unter ressources gespeichert 
 		(Pfad zu den Bildern ist hard-coded!)
 
+mehr details sind in /ressources/description_Bodensee-WarnWetter-DWD.pdf zu finden
