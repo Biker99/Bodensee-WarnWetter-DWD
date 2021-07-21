@@ -1,4 +1,6 @@
 # Bodensee-WarnWetter-DWD
+
+
  
 Wir haben  ein Tool geschrieben, mit dem wir
 1.	die DWD Warnungen komplett für gesamt Deutschland auslesen und textlich darstellen
@@ -21,30 +23,32 @@ Code / Project
     Window-Builder implementiert in Eclipse
     Package Name: wetter
     Die main datei ist die wetter\gui\SimplifiedWetterGUI.java
+	executable .jar file, "HTML" directory with related .png and "SETTINGS" directory is located in "RESSOURCES"
+	mehr details zum Programm sind in .../RESSOURCES/description_Bodensee-WarnWetter-DWD.pdf zu finden
 
 Projekt Struktur:
 
     wetter
 	    common
-		AktualisierenDWD.java
-		AktualisierenVOWIS.java
-		LocalTime.java
-		VOWIS.java
-		Warnung.java
+		    AktualisierenDWD.java
+		    AktualisierenVOWIS.java
+		    LocalTime.java
+		    VOWIS.java
+		    Warnung.java
 	    gui	
-		About.java
-		CreateHTML.java
-		Settings.java
-		SimplifiedWetterGUI.java  main
+		    About.java
+		    CreateHTML.java
+		    Settings.java
+		    SimplifiedWetterGUI.java  main
 	    includes	
-		json-simple-1.1.1.jar
+		    json-simple-1.1.1.jar
 	    json	
-		JSON_DecodeDWD.java
-		JSON_DecodeVOWIS.java
-		JSONLoadObjectDWD.java
-		JSONLoadObjectVOWIS.java
+		    JSON_DecodeDWD.java
+		    JSON_DecodeVOWIS.java
+		    JSONLoadObjectDWD.java
+		    JSONLoadObjectVOWIS.java
 	    ressources	
-		Die benötigten Bilder etc. sind unter ressources gespeichert 
-		(Pfad zu den Bildern ist hard-coded!)
+		    Die benötigten Bilder etc. sind unter ressources gespeichert 
+		    (Pfad zu den Bildern ist hard-coded!)
 
 mehr details sind in /ressources/description_Bodensee-WarnWetter-DWD.pdf zu finden
